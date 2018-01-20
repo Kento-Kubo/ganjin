@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-family: 'Open Sans', Arial, sans-serif;
+  width:100%;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*<へッダー開始（共通：変えないこと）--------------------------------------------------------->*/
+
+.input1{
+  background-color: white;
+  border: none;
+  border-radius: 3px  3px;
+  color: #a9a9a9;
+  margin: 15px 0;
+  padding: 0 16px;
+  width: 300px;
+  height: 30px;
+  float: left;
+  margin-left:10px;
+}
+.fa-search {
+  background-color: none;
+  border-radius: 3px 0px 0px 3px;
+  border-right: 3px solid #434a52;
+  color: #606468;
+  display: block;
+  
+  line-height: 65px;
+  text-align: center;
+  width: 50px;
+  height: 35px;
+  margin-top:15px;
+  }
+
+.header-left{
+  padding:0 15px;
+  }
+  
+  
+.fa{
+  font-size:10px;
+  margin-right:5px;
+}
+
+header{
+  height:65px;
+  width:100%;
+  background-color:rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top:0;
+    z-index:10;
+  }
+
+.logo{
+  width:124px;
+  margin-top:20px;
+  float:left;
+}
+
+.mypage{
+  color:white;
+  text-align:center;
+}
+
+.logout{
+  color:white;
+}
+
+.header-left{
+  float:left;
+
+}
+
+.header-right{
+  float:right;
+  /*background-color:rgba(255, 255, 255, 0.3);*/
+  display:block;
+  line-height:65px;
+  padding:0 25px;
+  transition:all 0.5s;
+}
+
+.header-right:hover{
+  background-color:rgba(255, 255, 255, 0.5);
+
+}
+
+/*<へッダー終了（共通：変えないこと）--------------------------------------------------------->*/
+
+
+/*--メイン開始---------------------------------------------------------------------------------*/   
+		.main-part{
+		 width:100%;
+		 height:1170px;
+		 border:solid black 1px;
+		 float:left;
+		 margin-top:80px;
+		 position:relative;
+		}
+		
+		/*--左半分開始--------------------------------------------------------------------------*/   
+			.main-left{
+			
+			 width:60%;
+		 	 height:1170px;
+		 	 border:solid black 1px;
+			 display:inline-block;
+			 margin-left:18px;
+			 margin-right:5px;
+			 position:absolute;
+			 top:0;
+			}
+				
+				/*--profile開始-----------------------------------------------------------------*/   
+				.main-left-profile{
+				
+				 width:100%;
+		 	 	 height:350px;
+		 	 	 border:solid black 1px;
+			 	 display:inline-block;
+			 	 margin-left:0px;
+			 	 margin-right:0px;
+			 	 position:absolute;
+			 	 top:0;
+				}
+				
+				.main-left-profile-left{
+				 width:40%;
+		 	 	 height:350px;
+		 	 	 border:solid black 1px;
+			 	 display:inline-block;
+			 	 margin-left:0px;
+			 	 margin-right:0px;
+			 	 position:absolute;
+			 	 top:0;
+				}
+				
+				.profile-photo{
+				/*border-radius:200px;*/
+				margin-top:20px;				
+				}
+		
+				.teacher-name{
+				font-size:30px;
+				color:#3b5998;
+				margin-left:20px;
+				margin-top:10px;
+				}
+				
+				.main-left-profile-right{
+				 width:60%;
+		 	 	 height:350px;
+		 	 	 border:solid black 1px;
+			 	 display:inline-block;
+			 	 margin-left:0px;
+			 	 margin-right:0px;
+			 	 position:absolute;
+			 	 top:0;
+			 	 left:325px;
+				}
+		
+		
+				
+				/*--profile終了-----------------------------------------------------------------*/   
+		
+				/*--Introduction開始------------------------------------------------------------*/   
+				.main-left-introduction{
+				
+				 width:100%;
+		 	 	 height:200px;
+		 	 	 border:solid black 1px;
+			 	 display:inline-block;
+			 	 margin-left:0px;
+			 	 margin-right:0px;
+			 	 position:absolute;
+			 	 top:360px;
+				
+				}
+		
+		
+		
+		
+				
+				/*--Introduction終了------------------------------------------------------------*/
+		
+		
+				/*--スケジュール開始------------------------------------------------------------*/   
+				.main-left-schedule{
+				
+				 width:100%;
+		 	 	 height:600px;
+		 	 	 border:solid black 1px;
+			 	 display:inline-block;
+			 	 margin-left:0px;
+			 	 margin-right:0px;
+			 	 position:absolute;
+			 	 top:570px;
+				}
+		
+		
+		
+		
+				
+				/*--スケジュール終了------------------------------------------------------------*/
+		
+		
+		
+		
+		
+		
+		
+		
+		/*--左半分開始-------------------------------------------------------------------------*/   
+
+		/*--右半分開始-------------------------------------------------------------------------*/   
+			.main-right{
+			
+			 width:36%;
+		 	 height:1170px;
+		 	 border:solid black 1px;
+			 display:inline-block;
+			 margin-left:5px;
+			 position:absolute;
+			 top:0;
+			 left:840px;
+			}
+		
+				/*--レビュー開始----------------------------------------------------------------*/   
+				.main-right-review{
+			
+			 	 width:100%;
+		 	 	 height:1170px;
+		 	 	 border:solid black 1px;
+			 	 display:inline-block;
+			 	 margin-left:0px;
+			 	 position:absolute;
+			 	 
+			 	 left:0px;
+				 }
+			
+				/*--レビュー終了----------------------------------------------------------------*/
+		
+		
+		
+		
+		
+		
+			
+		/*--右半分終了-------------------------------------------------------------------------*/	
+			
+		
+/*--メイン終了---------------------------------------------------------------------------------*/   
+
+
+
+
+
+
+/*back to top開始（共通：変えないこと）--------------------------------------------------------*/
+
+.back-to-top{
+  width:100%;
+  height:50px;
+  background-color:rgba(34, 49, 52, 0.6);
+  text-align:center;
+  line-height:50px;
+    color:white;
+    display:block;
+
+  transition:all 0.5s;
+	  position:absolute;
+  top:1300px;
+}
+
+.back-to-top:hover{
+  background-color:rgba(34, 49, 52, 0.4);
+}
+
+.back-to-top-word{
+
+ color:white;
+ display:block;
+ 
+}
+
+/*back to top終了（共通：変えないこと）--------------------------------------------------------*/
+/*<フッター開始（共通：変えないこと）---------------------------------------------------------*/
+footer{
+  background-color:rgba(34, 49, 52, 0.9);
+  height: 270px;
+  width:100%;
+  color:white;
+  position:absolute;
+  top:1350px;
+  
+}
+  
+/*フッター終了（共通：変えないこと）-------------------------------------------------------*/
